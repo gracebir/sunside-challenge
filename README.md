@@ -1,2 +1,2 @@
 
-![Template Screenshot](landing.png?raw=true "Template Screenshot")
+![Template Screenshot](landing.jpg?raw=true "Template Screenshot")
