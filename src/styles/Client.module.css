@@ -1,0 +1,50 @@
+.client{
+    max-width: 100%;
+    padding: 5rem 3rem;
+
+}
+
+.title__client{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.clients__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.client__item{
+    padding: 0.5rem;
+    margin-left: 15px;
+    margin-top: 2rem;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client__text{
+
+    margin-top: 2rem;
+    margin-bottom: 2rem !important;
+}
+
+
+
+.client__text{
+    color: #808080;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.position{
+    color: #808080;
+    text-align: center;
+    font-size: 10px;
+}
