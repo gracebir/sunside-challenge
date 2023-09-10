@@ -20,3 +20,19 @@
         --dark-moderate-cyan: hsl(168, 34%, 41%);
     }
 }
+
+.hero-bg{
+    background-image: url('./assets/mobile/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width:40rem) {
+    .hero-bg{
+        background-image: url('./assets/desktop/image-header.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
