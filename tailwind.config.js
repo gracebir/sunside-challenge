@@ -21,6 +21,10 @@ export default {
         "grayish-blue":"var(--dark-grayish-blue)",
         "grayish-blue":"var(--grayish-blue)",
         "white-color":"var(--white)",
+      },
+      backgroundImage: {
+        "hero-desk": "url('./assets/desktop/image-header.jpg')",
+        "hero-mob": "url('./assets/mobile/image-header.jpg')",
       }
     },
   },
