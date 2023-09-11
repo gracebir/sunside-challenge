@@ -18,10 +18,16 @@ export default {
         "moderate-cyan":"var(--dark-moderate-cyan)",
         "desautred-blue":"var(--very-dark-desaturated-blue)",
         "grayish-very":"var(--very-dark-grayish-blue)",
-        "grayish-blue":"var(--dark-grayish-blue)",
+        "grayish-dark":"var(--dark-grayish-blue)",
         "grayish-blue":"var(--grayish-blue)",
         "white-color":"var(--white)",
       },
+      backgroundImage:{
+        "transform-desk":"url('./assets/desktop/image-transform.jpg')",
+        "transform-mob":"url('./assets/mobile/image-transform.jpg')",
+        "stand-out-desk":"url('./assets/desktop/image-stand-out.jpg')",
+        "stand-out-mob":"url('./assets/mobile/image-stand-out.jpg')"
+      }
     },
   },
   plugins: [],
