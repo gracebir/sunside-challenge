@@ -7,7 +7,7 @@ const Activity = ({ title, desc, order, color }) => {
         <h1 className="font-fraunces text-4xl">{title}</h1>
         <p className="text-grayish-dark">{desc}</p>
         <div className='flex flex-col'>
-          <a className='font-fraunces uppercase z-50' href="#">Learn more</a>
+          <a className='font-fraunces uppercase z-10' href="#">Learn more</a>
           <span className={`border-4 ${color} rounded-xl -mt-2`}></span>
         </div>
       </div>
