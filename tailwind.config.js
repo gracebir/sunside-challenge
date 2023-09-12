@@ -26,7 +26,20 @@ export default {
         "transform-desk":"url('./assets/desktop/image-transform.jpg')",
         "transform-mob":"url('./assets/mobile/image-transform.jpg')",
         "stand-out-desk":"url('./assets/desktop/image-stand-out.jpg')",
-        "stand-out-mob":"url('./assets/mobile/image-stand-out.jpg')"
+        "stand-out-mob":"url('./assets/mobile/image-stand-out.jpg')",
+        "graphic-desk": "url('./assets/desktop/image-graphic-design.jpg')",
+        "graphic-mob": "url('./assets/mobile/image-graphic-design.jpg')",
+        "photography-desk": "url('./assets/desktop/image-photography.jpg')",
+        "photography-mob": "url('./assets/mobile/image-photography.jpg')",
+
+        "orange-desk":"url('./assets/desktop/image-gallery-orange.jpg')",
+        "milk-desk":"url('./assets/desktop/image-gallery-milkbottles.jpg')",
+        "sugar-desk":"url('./assets/desktop/image-gallery-sugarcubes.jpg')",
+        "cone-desk":"url('./assets/desktop/image-gallery-cone.jpg')",
+        "orange-mob":"url('./assets/mobile/image-gallery-orange.jpg')",
+        "milk-mob":"url('./assets/mobile/image-gallery-milkbottles.jpg')",
+        "sugar-mob":"url('./assets/mobile/image-gallery-sugar-cubes.jpg')",
+        "cone-mob":"url('./assets/mobile/image-gallery-cone.jpg')",
       }
     },
   },
