@@ -12,8 +12,8 @@ function App() {
      <Header/>
      <Hero/>
      <Activity/>
-     <Testimonials/>
      <Prodcut/>
+     <Testimonials/>
      <Footer/>
     </>
   )
