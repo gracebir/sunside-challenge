@@ -1,4 +1,5 @@
 import logo from "./logo.svg"
+import logoFooter from "./logo-footer.svg"
 import instagram from "./icon-instagram.svg"
 import facebook from "./icon-facebook.svg"
 import hamburger from "./icon-hamburger.svg"
@@ -21,5 +22,6 @@ export {
     arrow,
     emily,
     jennie,
-    thomas
+    thomas,
+    logoFooter
 }
