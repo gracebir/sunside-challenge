@@ -35,12 +35,14 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <div>
-      <h1></h1>
-      <div>
-        {data.map((item)=>(
-          <Testimonial {...item} key={item.id}/>
-        ))}
+    <div className='flex items-center min-h-screen py-10 lg:py-0 px-8 lg:px-0'>
+      <div className='container mx-auto flex flex-col gap-8 lg:gap-12 items-center'>
+        <h1 className='font-fraunces text-grayish-blue uppercase text-2xl'>Client testimonials</h1>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-3 lg:flex-row gap-14 lg:gap-16'>
+          {data.map((item) => (
+            <Testimonial {...item} key={item.id} />
+          ))}
+        </div>
       </div>
     </div>
   )
