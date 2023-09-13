@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Testimonials from './components/Testimonials'
 import Prodcut from './components/Product'
 import Footer from './components/Footer'
+import WeOffer from './components/WeOffer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Activity/>
      <Prodcut/>
      <Testimonials/>
+     <WeOffer/>
      <Footer/>
     </>
   )
