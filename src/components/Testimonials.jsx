@@ -1,6 +1,8 @@
 import React from 'react'
 import { emily, thomas, jennie } from '../assets/index'
 import Testimonial from './Testimonial'
+import { motion } from 'framer-motion'
+import { fadeIn, staggerContainer, textVariant } from '../utils/motion'
 
 const data = [
   {
@@ -36,14 +38,19 @@ const data = [
 const Testimonials = () => {
   return (
     <div className='flex items-center min-h-screen py-10 lg:py-0 px-8 lg:px-0'>
-      <div className='container mx-auto flex flex-col gap-8 lg:gap-12 items-center'>
-        <h1 className='font-fraunces text-grayish-blue uppercase text-2xl'>Client testimonials</h1>
+      <motion.div
+       variants={staggerContainer}
+       initial="hidden"
+       whileInView="show"
+       viewport={{ once: false, amount: 0.25 }}
+       className='container mx-auto flex flex-col gap-8 lg:gap-16 items-center'>
+        <motion.h1 variants={textVariant(1.1)} className='font-fraunces text-grayish-blue uppercase text-2xl'>Client testimonials</motion.h1>
         <div className='grid sm:grid-cols-1 lg:grid-cols-3 lg:flex-row gap-14 lg:gap-16'>
-          {data.map((item) => (
-            <Testimonial {...item} key={item.id} />
+          {data.map((item, key) => (
+            <Testimonial delay={key} {...item} key={item.id} />
           ))}
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
